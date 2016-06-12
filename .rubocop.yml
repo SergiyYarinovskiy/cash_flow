@@ -1,0 +1,51 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'vendor/**/*'
+    - 'spec/spec_helper.rb'
+    - 'spec/rails_helper.rb'
+  TargetRubyVersion: 2.3
+
+Metrics/LineLength:
+  Max: 100
+
+Metrics/MethodLength:
+  Enabled: false
+
+NumericLiterals:
+  Enabled: false
+
+Style/AlignParameters:
+  Enabled: false
+
+Style/RedundantSelf:
+  Enabled: false
+
+Metrics/ClassLength:
+  Max: 200
+
+Metrics/ModuleLength:
+  Max: 200
+
+Metrics/AbcSize:
+  Max: 20
+
+Lambda:
+  Enabled: false
+
+Next:
+  Enabled: false
+
+DoubleNegation:
+  Enabled: false
+
+HasAndBelongsToMany:
+  Enabled: false
+
+Documentation:
+    Enabled: false
